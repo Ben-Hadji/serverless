@@ -35,7 +35,7 @@ Dans ce premier design correspondant à l'etat actuel de ma solution, on remarqu
 
 3 => Impact de l'Azure fonction sur la base de données.
 
-Une evolution de cette solution est la suivante : 
+J'ai aussi réfléchi à Une evolution de cette solution qui est la suivante : 
 
 <img width="586" alt="image" src="https://github.com/Ben-Hadji/serverless/assets/83819844/8f4e7b7e-e7c7-44c8-b97c-0263fdb8776d">
 
@@ -56,23 +56,29 @@ Voici le corps de la requette de test pour l'Azure fonction :
 
  et voici le resultat : ça nous affiche son état precedent ainsi que l'etat après l'execution :   
  
-<img width="716" alt="image" src="https://github.com/Ben-Hadji/serverless/assets/83819844/b09b2fd0-6e75-4275-8604-63786ff71aea">  
+<img width="960" alt="image" src="https://github.com/Ben-Hadji/serverless/assets/83819844/750e1658-1af7-488f-81de-e64c11a8f9ab">
+ 
 
 
 #### Afficher tous les articles : type Get
 URL de la fonction : _https://projectben.azurewebsites.net/api/HttpTrigger2?code=dN4HJAfeD4gSRQjl1vnbaMvUHoWoBnIyuuPb4F0OxCByAzFu4FyOjw==_  
 
 Etant donnée que la fonction recupére toutes les donnée le corps de la requette est vide et voici son resultat :   
-<img width="824" alt="image" src="https://github.com/Ben-Hadji/serverless/assets/83819844/ac73983d-e791-4700-bb91-5918a87163c4">  
+
+<img width="960" alt="image" src="https://github.com/Ben-Hadji/serverless/assets/83819844/14ad4544-a715-412c-8186-51bf623b63f2">
+ 
 
 #### Ajouter un article : type Post
 URL de la fonction : _https://projectben.azurewebsites.net/api/HttpTrigger3?code=0EWm7YpgRrgIrOnvZwAO4409CCb0d4HKG6L-nmE1BSDrAzFu19G_1g==_  
  Voici le corps d'un exemple que j'ai utilisé pour faire mon dernier test quant à l'ajout d'un nouveau produit:  
 
- <img width="407" alt="image" src="https://github.com/Ben-Hadji/serverless/assets/83819844/5a6239f8-844a-4d12-98b2-5caa69c2b6c6">  
+<img width="416" alt="image" src="https://github.com/Ben-Hadji/serverless/assets/83819844/4fa23d23-d339-4e50-a166-4169071ee1ef">
+  
 
  ainsi que le resultat du test :   
-<img width="900" alt="image" src="https://github.com/Ben-Hadji/serverless/assets/83819844/4cd1d702-4176-424f-9969-432d5e636e88">  
+
+<img width="960" alt="image" src="https://github.com/Ben-Hadji/serverless/assets/83819844/56bd3659-ab76-4b6b-9512-7bf05ebfcf80">
+
 
 
 
